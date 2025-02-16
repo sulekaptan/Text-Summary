@@ -42,7 +42,7 @@ struct HomeView: View {
                                 viewModel.summarizeText(userInput)
                             }
                         }) {
-                            Text("Summarize Texssssssst!")
+                            Text("Summarize Text!")
                                 .font(.title2)
                                 .foregroundColor(isLightMode ? .black : .white)
                                 .padding()
